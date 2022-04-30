@@ -1,0 +1,182 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.button_1{
+    background-color: #e8491d;
+    border: none;
+    color: #f4f4f4;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 4px;
+}
+
+header{
+    background-color:#35424a;
+    color:#ffff;
+    border-bottom: #e8491d 3px solid;
+    padding: 30px 0 20px 0;
+}
+
+
+header a{
+    color:#ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+header li{
+    float: left;
+    display: inline-block;
+    padding: 0 20px;
+}
+header #title h1{
+    margin: 0;
+}
+header #title{
+    float:left;
+}
+header nav{
+    float:right;
+    margin-top: 15px;
+}
+#first , header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color:gray;
+    font-weight: bold;
+}
+
+
+#showcase{
+    background-image: url('../img/showcase.jpg') ;
+    background-repeat: no-repeat;
+    background-position: 0 -400px;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom:10px  
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter{
+    background-color: #35424a;
+    color: white;
+    min-height: 50px;
+    padding: 15px;
+    
+}
+#newsletter h3{
+    float: left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top: 15px;  
+}
+
+ input , textarea {
+    padding:4px;
+    height: 20px;
+    width:250px;
+    border: none;
+}
+
+#boxes{
+    padding-top: 20px;
+}
+
+.box{
+    float: left;
+    width: 30%;
+    text-align: center;
+   
+}
+.box img{
+    width:80px
+}
+
+#footer{
+    background-color:#e8491d;
+    color: #f4f4f4;
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+#main #main-col{
+    float: left;
+    width:65%;
+}
+#main #side-col {
+    float: right;
+    width: 30%;
+    background-color: #35424a;
+    color: #f4f4f4;
+    padding: 15px;
+    margin-top: 15px;
+    min-height: 350px;
+}
+#main #side-col input, #main #side-col textarea{
+    width: 90%;
+}
+label{
+    display: block;
+}
+
+#about-container{
+    padding: 15px;
+    background-color: #cec8c8;
+}
+
+@media (max-width:768px) {
+    header #title,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    #main
+    article#main-col
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .button_1{
+        margin-top: 5px;
+    width: 90%;
+    }
+    input{
+        width: 87%;
+        margin-bottom: 5px;
+        
+    }
+}
